@@ -1,0 +1,39 @@
+/*  Macro Layoout */
+body {
+    /*   border: 5px solid red; */
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #48d1cc;
+  }
+  
+.navbar-brand span {
+    display: inline-block;
+    transform: rotate(35deg);
+    margin: 0 5px;
+  }
+  
+.bg-footer {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+.poll{
+    max-width: 400px;
+    margin: 25px auto;
+}
+  
+.card-header{
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+.navbar-brand{
+    color: #FFFFFF;
+  }
+  
+.nav-link{
+    color: white;
+  }
+  
+  
